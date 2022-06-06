@@ -1,3 +1,7 @@
 Working with images in django: https://nemecek.be/blog/79/working-with-django-imagefield
 
 How to create thumbnails: https://www.youtube.com/watch?v=gU__etXBU8c
+
+Setting django's static and media URLS: http://www.django.co.zw/en/tutorials/setting-django-s-static-and-media-urls/
+
+Creating a serializer: https://www.django-rest-framework.org/tutorial/1-serialization/
