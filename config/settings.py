@@ -33,13 +33,13 @@ STRIPE_SECRET_KEY = 'sk_test_51LCo8zAA58CAH382SgeoCsFhxguX1fZPfUUpoXCkXjwyKvIyLo
 # Application definition
 
 INSTALLED_APPS = [
-    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
     'djoser',
