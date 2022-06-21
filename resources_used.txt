@@ -5,3 +5,5 @@ How to create thumbnails: https://www.youtube.com/watch?v=gU__etXBU8c
 Setting django's static and media URLS: http://www.django.co.zw/en/tutorials/setting-django-s-static-and-media-urls/
 
 Creating a serializer: https://www.django-rest-framework.org/tutorial/1-serialization/
+
+https://www.geeksforgeeks.org/what-does-s-mean-in-a-python-format-string/#:~:text=The%20%25%20symbol%20is%20used%20in,another%20string%20within%20a%20string.
