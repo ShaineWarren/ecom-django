@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-lbz+h(y@z6n=x4d0&0g&opjk1dt+%*!@a=7uz%gaviyy2ov+3y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'boho-django.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'boho-django.herokuapp.com', '127.0.0.1:8000']
 
 STRIPE_SECRET_KEY = 'sk_test_51LCo8zAA58CAH382SgeoCsFhxguX1fZPfUUpoXCkXjwyKvIyLovr6FPtvE9uk5wesLzQV7h7XsWgc0Zmo0emkRC8007EXCn0YV'
 
