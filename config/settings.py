@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cloudinary_storage',
+    'cloudinary',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
@@ -151,6 +153,12 @@ MEDIA_ROOT = BASE_DIR / 'media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SITE_URL = os.environ.get('SITE_URL') or 'http://127.0.0.1:8000'
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'diazcrkyl',
+    'API_KEY': '677534856533763',
+    'API_SECRET': '7_UnUt6D23weQGMiR8iVeMFmeVE'
+}
 
 import django_on_heroku
 django_on_heroku.settings(locals())
